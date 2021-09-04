@@ -1,1 +1,1 @@
-# shared-library
+# Shared-library repo for DevOps World workshop
