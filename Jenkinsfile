@@ -2,7 +2,7 @@
 pipeline {
     agent any
     stages {
-        stage('verify') {
+        stage('welcome') {
             steps {
                 helloDevOpsWorld(name: 'Pipeline Workshop Attendees')
             }
