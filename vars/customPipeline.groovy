@@ -3,6 +3,7 @@ def call(body) {
     body.resolveStrategy = Closure.DELEGATE_FIRST
     body.delegate = pipelineParams
     body()
+    print "Starting the Pipeline..."
     pipeline {
      agent any
     stages {
