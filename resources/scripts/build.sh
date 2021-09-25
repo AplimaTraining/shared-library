@@ -2,5 +2,6 @@
 
 git clean -xfd
 
-env
-mvn -B -DskipTests clean package
+#env
+echo "Running maven $1"
+mvn -B -DskipTests clean $1
