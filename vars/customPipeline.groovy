@@ -10,7 +10,7 @@ def call(body) {
     stage('Build') {
           steps {
             echo "Starting the build"
-            runBuild(name: "build.sh")
+            runBuild(name: "build.sh", arg: "${pipelineParams.lifecyclePhase}" )
 
           }
         }
