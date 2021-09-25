@@ -3,6 +3,6 @@ def call(Map config = [:]) {
   writeFile file: "${config.name}", text: contents
   sh """
     chmod a+x ./${config.name}
-    ./${config.name}
+    ./${config.name} ${config.arg}
   """
 }
