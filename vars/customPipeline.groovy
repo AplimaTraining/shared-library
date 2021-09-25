@@ -34,7 +34,7 @@ def call(body) {
         branch 'main'
       }
       steps {
-        sh "./jenkins/deploy.sh ${pipelineParams.DEPLOY_TO}"
+        sh "./jenkins/deploy.sh ${pipelineParams.deployTo}"
       }
     }
   }
