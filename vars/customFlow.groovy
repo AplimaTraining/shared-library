@@ -3,6 +3,6 @@ def call(Map config) {
     node {
         echo "running build"
         echo "test"
-        print "${config.name)"
+        //print "${config.name)"
     }
 }
