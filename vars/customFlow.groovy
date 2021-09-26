@@ -1,4 +1,4 @@
-def call(Map config) {
+def call() {
     print "Starting the Pipeline..."
     node {
      agent any
