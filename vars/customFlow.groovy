@@ -1,6 +1,6 @@
 def call() {
     print "Starting the Pipeline..."
-    node {
+    Pipeline {
      agent any
     stages {
     stage('Build') {
