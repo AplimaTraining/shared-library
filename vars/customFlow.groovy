@@ -1,8 +1,8 @@
 def call(Map config) {
     print "Starting the Pipeline..."
-    node {
+    pipeline {
         echo "running build"
         echo "test"
-        //print "${config.name)"
+        echo "${config.name} is beging passed..."
     }
 }
