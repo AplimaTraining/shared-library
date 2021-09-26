@@ -1,6 +1,6 @@
 def call(Map config) {
     print "Starting the Pipeline..."
-    Pipeline {
+    pipeline {
         agent any
         stages {
             stage('Build') {
