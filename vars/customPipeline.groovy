@@ -16,7 +16,7 @@ def call(body) {
         }
     stage('Test') {
           steps {
-            sh './jenkins/run-tests.sh'
+            sh './scripts/run-tests.sh'
           }
       }
     stage('Confirm Deploy') {
@@ -34,7 +34,7 @@ def call(body) {
         branch 'main'
       }
       steps {
-        sh "./jenkins/deploy.sh ${pipelineParams.deployTo}"
+        sh "./scripts/deploy.sh ${pipelineParams.deployTo}"
       }
     }
   }
