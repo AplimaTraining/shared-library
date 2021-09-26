@@ -4,6 +4,6 @@ def call(Map config) {
         echo "running build"
         echo "test"
         echo "${config.name} is beging passed..."
-        echo "${config.status}
+        echo "${config.status}"
     }
 }
