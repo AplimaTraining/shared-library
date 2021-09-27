@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git clean -xfd
+#git clean -xfd
 
 #env
 echo "Running maven $1"
